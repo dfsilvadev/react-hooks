@@ -18,15 +18,6 @@ export const CoverDisplay = styled.div`
   padding: 0 0 2em 0;
 `;
 
-export const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
-    max-width: ${theme.grid.container};
-    margin: 0 auto;
-    padding: 0 ${theme.spacings.xsmall};
-  `}
-`;
-
 export const Headline = styled.div`
   ${({ theme }) => css`
     display: flex;

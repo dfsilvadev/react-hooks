@@ -1,3 +1,5 @@
+import Container from "../Container";
+
 import coverImage from "../../assets/svgexport-5.svg";
 
 import * as Styled from "./styles";
@@ -6,7 +8,7 @@ export default function Cover() {
   return (
     <Styled.CoverWrapper>
       <Styled.CoverDisplay>
-        <Styled.Container>
+        <Container>
           <Styled.Headline>
             <Styled.Content>
               <h1>
@@ -28,7 +30,7 @@ export default function Cover() {
               <img src={coverImage} alt="" />
             </Styled.Illustration>
           </Styled.Headline>
-        </Styled.Container>
+        </Container>
       </Styled.CoverDisplay>
     </Styled.CoverWrapper>
   );
