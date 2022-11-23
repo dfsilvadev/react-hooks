@@ -43,6 +43,7 @@ export default {
     white: "#FFF",
     light: "#e5f1ff",
     grayDark: "#BBC9DA",
+    lightBlue: "#6BD1FF",
     blue: "#051933",
     red: "#F16165",
     text: "#093366"
