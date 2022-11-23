@@ -10,9 +10,12 @@
     "test:watch": "yarn test --watch"
   },
   "dependencies": {
+    "package.json": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "react-router-dom": "^6.4.3",
+    "styled-components": "^5.3.6",
+    "yarn.lock": "^0.0.1-security"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
