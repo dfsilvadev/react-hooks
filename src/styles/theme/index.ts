@@ -39,13 +39,15 @@ export default {
   },
 
   colors: {
-    dark: "#070B11",
-    white: "#FFF",
-    light: "#e5f1ff",
-    grayDark: "#BBC9DA",
-    lightBlue: "#6BD1FF",
-    blue: "#051933",
+    background: "#121214",
+    elements: "#202024",
+    divider: "#323238",
+    placeholder: "#7C7C8A",
+    label: "#8D8D99",
+    text: "#C4C4CC",
+    title: "#E1E1E6",
+    white: "#FFFFFF",
     red: "#F16165",
-    text: "#093366"
+    green: "#00B37E"
   }
 } as const;
