@@ -5,11 +5,12 @@ export default {
   testPathIgnorePatterns: ["/node_modules/", "/.next/", "/public/"],
   collectCoverage: true,
   collectCoverageFrom: [
-    "src/**/*.ts(x)?",
+    "src/**/*.{js,jsx,ts,tsx}",
     "!src/**/stories.tsx",
     "!src/pages/**/*.tsx",
     "!src/styles/**/*.ts",
     "!src/@types/**/*.d.ts",
+    "!src/utils/tests/renderWithTheme.tsx",
     "!src/**/mock.ts",
     "!src/App.tsx",
     "!src/main.tsx",
