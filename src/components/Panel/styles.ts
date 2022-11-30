@@ -20,6 +20,9 @@ export const PanelHeader = styled.header`
 export const PanelBody = styled.div`
   ${({ theme }) => css`
     padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15.8125rem, 1fr));
+    gap: ${theme.spacings.xsmall};
 
     header + & {
       padding-top: ${theme.spacings.xsmall};
