@@ -1,6 +1,7 @@
 import { screen } from "@testing-library/react";
-import Content from ".";
 import { renderWithTheme } from "../../utils/renderWithTheme";
+
+import Content from ".";
 
 describe("<Content/>", () => {
   it("should render currectly", () => {
