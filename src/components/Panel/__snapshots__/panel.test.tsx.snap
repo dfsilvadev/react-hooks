@@ -16,6 +16,9 @@ exports[`<Panel/> should render title when passed 1`] = `
 
 .c3 {
   padding-top: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15.8125rem,1fr));
+  gap: 1rem;
 }
 
 header + .c2 {

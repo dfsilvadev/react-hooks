@@ -22,7 +22,9 @@ describe("<Panel/>", () => {
     });
 
     expect(body).toHaveStyle({
-      "padding-top": "0"
+      "padding-top": "0",
+      display: "grid",
+      "grid-template-columns": "repeat(auto-fit,minmax(15.8125rem,1fr))"
     });
   });
 
