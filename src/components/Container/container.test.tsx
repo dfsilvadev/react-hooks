@@ -1,7 +1,7 @@
 import { screen } from "@testing-library/react";
 
 import Container from ".";
-import { renderWithTheme } from "../../utils/renderWithTheme";
+import { renderWithTheme } from "../../utils/tests/renderWithTheme";
 
 describe("<Container/>", () => {
   it("should render with width: 100% in small size", () => {

@@ -1,5 +1,6 @@
 import { screen } from "@testing-library/react";
-import { renderWithTheme } from "../../utils/renderWithTheme";
+
+import { renderWithTheme } from "../../utils/tests/renderWithTheme";
 
 import Content from ".";
 

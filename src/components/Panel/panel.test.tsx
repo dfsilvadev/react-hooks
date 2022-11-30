@@ -1,7 +1,8 @@
-import { renderWithTheme } from "../../utils/renderWithTheme";
+import { screen } from "@testing-library/react";
+
+import { renderWithTheme } from "../../utils/tests/renderWithTheme";
 
 import Panel from ".";
-import { screen } from "@testing-library/react";
 
 describe("<Panel/>", () => {
   it("should render currectly", () => {
