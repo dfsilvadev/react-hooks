@@ -25,7 +25,17 @@ describe("<Panel/>", () => {
     expect(body).toHaveStyle({
       "padding-top": "0",
       display: "grid",
-      "grid-template-columns": "repeat(auto-fit,minmax(15.8125rem,1fr))"
+      "grid-template-columns": "1fr"
+    });
+
+    expect(body).toHaveStyleRule("grid-template-columns", "repeat(2,1fr)", {
+      media: "(min-width: 768px)"
+    });
+    expect(body).toHaveStyleRule("grid-template-columns", "repeat(3,1fr)", {
+      media: "(min-width: 1200px)"
+    });
+    expect(body).toHaveStyleRule("grid-template-columns", "repeat(4,1fr)", {
+      media: "(min-width: 1400px)"
     });
   });
 

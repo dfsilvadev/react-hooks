@@ -17,12 +17,30 @@ exports[`<Panel/> should render title when passed 1`] = `
 .c3 {
   padding-top: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(15.8125rem,1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
 header + .c2 {
   padding-top: 1rem;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:1200px) {
+  .c3 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (min-width:1400px) {
+  .c3 {
+    grid-template-columns: repeat(4,1fr);
+  }
 }
 
 <div>
