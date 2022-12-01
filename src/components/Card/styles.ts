@@ -9,13 +9,16 @@ export const CardWrapper = styled(Link)`
     border-radius: ${theme.border.radius};
     padding: ${theme.spacings.xxsmall};
     border: 2px solid transparent;
+    outline: 0;
+
     transition: ${theme.transition.fast};
 
     display: flex;
     align-items: center;
     gap: ${theme.spacings.xsmall};
 
-    &:hover {
+    &:hover,
+    &:focus {
       border: 2px solid ${theme.colors.green};
     }
   `}
