@@ -17,7 +17,7 @@ describe("<Breadcrumb/>", () => {
       "/"
     );
 
-    expect(screen.getByText(/usestate hooks/i)).toBeInTheDocument();
+    expect(screen.getByText("useState Hooks")).toBeInTheDocument();
 
     expect(container).toMatchSnapshot();
   });
