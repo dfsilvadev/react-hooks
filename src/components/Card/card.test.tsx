@@ -6,7 +6,8 @@ import Card from ".";
 
 const props = {
   title: "useState",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  url: "usestate"
 };
 
 describe("<Card/>", () => {
@@ -15,7 +16,7 @@ describe("<Card/>", () => {
 
     expect(screen.getByRole("link", { name: /useState/i })).toHaveAttribute(
       "href",
-      "/"
+      "/usestate"
     );
 
     expect(screen.getByRole("img")).toBeInTheDocument();
