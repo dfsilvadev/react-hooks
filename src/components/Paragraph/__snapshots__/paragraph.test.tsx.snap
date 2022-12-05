@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paragraph/> should render a title 1`] = `
+.c0 {
+  margin-top: 2.5rem;
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  </p>
+</div>
+`;
