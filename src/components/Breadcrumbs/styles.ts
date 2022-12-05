@@ -10,7 +10,6 @@ export const BreadcrumbsWrapper = styled.span`
 
     a {
       border-radius: ${theme.border.radius};
-      &:hover,
       &:focus {
         outline: 2px solid ${theme.colors.green};
         outline-offset: ${theme.border.outlineOffiset};
