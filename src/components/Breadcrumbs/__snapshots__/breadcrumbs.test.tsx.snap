@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb/> should render currectly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+}
+
+.c0 a {
+  border-radius: 0.25rem;
+}
+
+.c0 a:hover,
+.c0 a:focus {
+  outline: 2px solid #00B37E;
+  outline-offset: 0.125rem;
+}
+
+.c0 span {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.c0 span:first-child {
+  color: #00B37E;
+}
+
+.c0 svg {
+  line-height: 0;
+}
+
+.c1 {
+  cursor: not-allowed;
+  color: #8D8D99;
+}
+
+<div>
+  <span
+    class="c0"
+  >
+    <a
+      href="/"
+    >
+      <span>
+        Home
+      </span>
+    </a>
+    <svg
+      fill="currentColor"
+      height="16"
+      viewBox="0 0 256 256"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        fill="none"
+        height="256"
+        width="256"
+      />
+      <polyline
+        fill="none"
+        points="96 48 176 128 96 208"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="16"
+      />
+    </svg>
+    <span
+      class="c1"
+    >
+      useState Hooks
+    </span>
+  </span>
+</div>
+`;
