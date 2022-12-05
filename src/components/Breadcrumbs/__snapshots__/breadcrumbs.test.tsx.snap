@@ -22,7 +22,6 @@ exports[`<Breadcrumb/> should render currectly 1`] = `
   border-radius: 0.25rem;
 }
 
-.c0 a:hover,
 .c0 a:focus {
   outline: 2px solid #00B37E;
   outline-offset: 0.125rem;
