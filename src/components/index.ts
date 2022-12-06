@@ -1,6 +1,8 @@
+export { default as Article } from "./Article";
 export { default as Blockquote } from "./Blockquote";
 export { default as Breadcrumbs } from "./Breadcrumbs";
 export { default as Card } from "./Card";
+export { default as Code } from "./Code";
 export { default as Container } from "./Container";
 export { default as Content } from "./Content";
 export { default as Head } from "./Head";
