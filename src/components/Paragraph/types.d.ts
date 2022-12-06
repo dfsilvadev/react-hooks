@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface IParagraphProps {
-  text: string;
+  children: ReactNode;
 }
