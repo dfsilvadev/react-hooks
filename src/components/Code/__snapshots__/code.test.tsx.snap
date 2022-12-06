@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Code/> should render currectly 1`] = `
+.c0 {
+  background-color: #323238;
+  padding: 2px 0.5rem;
+  font-size: 0.94em;
+  word-break: break-word;
+  border-radius: 2px;
+  color: #00B37E;
+}
+
+<div>
+  <code
+    aria-label="Code"
+    class="c0"
+    role="code"
+  >
+    HTML
+  </code>
+</div>
+`;
