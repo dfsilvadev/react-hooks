@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 export const HeadingWrapper = styled.h1`
   ${({ theme }) => css`
     position: relative;
-    margin-bottom: ${theme.spacings.medium};
 
     &::after {
       content: "";
