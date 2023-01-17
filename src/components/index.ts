@@ -5,6 +5,7 @@ export { default as Card } from "./Card";
 export { default as Code } from "./Code";
 export { default as Container } from "./Container";
 export { default as Content } from "./Content";
+export { default as Count } from "./Count";
 export { default as Head } from "./Head";
 export { default as Heading } from "./Heading";
 export { default as HooksIcon } from "./HooksIcon";
